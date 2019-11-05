@@ -1,0 +1,138 @@
+/*.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 28% 30% 30% 12%;
+    color: rgb(0, 0, 0);   
+    height:100%;    
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/92/San_Francisco_Peaks.jpg);
+    background-size:100%;
+}
+.box{  
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    font-size: 150%;
+    border: 1px solid rgb(65, 65, 65);
+    overflow-wrap: break-word;
+}
+.item-a{
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-attachment: cover;
+    text-align: center; 
+    font-family: 'Righteous', cursive;
+}
+.item-c{
+    display: block;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+    align-content: center;  
+    background-color: rgb(168, 166, 166);
+    overflow-wrap: hidden;
+    text-align: center;  
+}
+.item-d{
+    display: flex;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+    align-content: center; 
+    justify-content:center; 
+    background-color: rgb(150, 150, 150);
+    overflow-wrap: break-word;   
+}
+.item-e{
+    display: block;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:4;
+    align-content: center; 
+    justify-content:center; 
+    background-color: rgb(95, 95, 95);
+    overflow: hidden;    
+}
+.item-f{
+    display: block;
+    grid-column-start:1;
+    grid-column-end:5;
+    grid-row-start:4;
+    grid-row-end:5;
+    align-content: top; 
+    justify-content:center; 
+    background-color: rgb(190, 190, 190);
+    overflow: visible;    
+}
+*/
+body {
+    margin: 40px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/92/San_Francisco_Peaks.jpg);
+    background-size:cover;
+  }
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #444;
+    }
+.box {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    border: 2px double black;
+    box-shadow: 3px 3px 20px white;
+    
+      }
+.a {
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Notable', sans-serif;
+    }
+.b {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    }
+.c {
+    grid-column: 1 / span 3;
+    grid-row: 3 ;
+    font-size: 200%;
+    }
+
+.d {
+    grid-column: 1 / span 3;
+    grid-row: 4 ;
+    }
+a{
+    text-decoration: none;
+    color: black
+}
+li {
+    margin: 0px 50px 0px 50px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    }
+li:hover{
+    background-color: rgb(109, 109, 109);
+    color: black
+}
+.d li:hover{
+    background-color: rgb(197, 197, 197);
+    color: black
+}
+a:visited{
+    color: black;
+}
+    

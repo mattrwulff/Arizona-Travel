@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-columns: 100px;
+    background-color: rgb(212, 236, 236);
+    color: #444;
+    }
+.box {
+    background-color: rgb(212, 236, 236);
+    color: black;
+    padding: 20px;
+    font-size: 150%;
+    border: 5px solid rgb(189, 252, 241);
+    } 
+.a {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-image: url(https://photos.zillowstatic.com/cc_ft_960/ISnuh81ksz36j81000000000.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 700px;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 700%;
+    }
+.d{
+    grid-column: 3;
+    grid-row: 2;   
+}
+.b {
+    grid-column: 1 ;
+    grid-row: 2 ;
+    }
+.c {
+    grid-column: 2;
+    grid-row: 2;
+    }
+.e{
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    color: white;
+}
+h2{
+    font-size: 300%;
+}
+li:hover{
+    background-color: rgb(228, 255, 255);
+    color: black
+}
+.d li:hover{
+    background-color: rgb(228, 255, 255);
+    color: black
+}
+
+      
